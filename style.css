@@ -1,45 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    background-color: #14213d;
-    font-family: 'Domine', serif;
-  }
+/* Navbar */
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
 
-  .container {
-    max-width: 750px;
-    width: 85%;
-    margin: auto;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    color: #E5E5E5;
-  }
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .saludo{
-    text-align: left;
-    color: #E5E5E5;
-  }
-  .name{
-    color: #FCA311;
-  }
-  .profesion{
-    color: #FFFFFF;
-    margin-top: 1.5rem;
-  }
 
-  a {
-    margin-top: 0.5rem;
-    color: #f5cb5c;
-  }
 
-  h1{
-    font-size: 3rem;
+/* Responsive */
+
+@media  screen and (max-width: 767px) {
+  .navbar-brand{
+    display: none;
   }
+}
