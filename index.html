@@ -17,6 +17,13 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Titulo -->
@@ -28,16 +35,32 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbar-toggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-toggler">
           <a class="navbar-brand" href="#">
-            <img src="img/desarrollador.png" width="50" alt="Logo de la página web">
+            <img
+              src="img/desarrollador.png"
+              width="50"
+              alt="Logo de la página web"
+            />
           </a>
-          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >Sobre mí</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Proyectos</a>
@@ -52,6 +75,33 @@
         </div>
       </div>
     </nav>
+
+    <!-- Section Hero -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <figure>
+          <img
+            class="hero-imagen rounded-circle"
+            src="img/profile.jpeg"
+            alt="Foto de Juan Gonzalez"
+          />
+          <!-- <figcaption>Foto de Juan D. Gonzalez</figcaption> -->
+        </figure>
+        <h1>Hola, soy <span>Juan D. Gonzalez</span></h1>
+        <h2>
+          Navegando entre creatividad y código: Desarrollo
+          <span>Front-End</span> con pasión.
+        </h2>
+      </div>
+
+      <div class="hero-inferior">
+        <figure>
+          <img class="hero-inferior-imagen img-fluid" src="img/hero-inferior.svg" alt="Monitor, HTML, CSS, Javascript y React.">
+        </figure>
+      </div>
+    </section>
 
     <!-- Bootstrap JS -->
     <script
