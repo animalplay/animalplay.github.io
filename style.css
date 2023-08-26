@@ -13,6 +13,27 @@ h1{
 
 span{
   color: red;
+  font-weight: bold;
+}
+
+.seccion-oscura{
+  background-color: #1b1b32;
+  color: white;
+}
+
+.seccion-clara{
+  background-color: white;
+  color: black;
+}
+
+.seccion-titulo{
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.seccion-texto{
+  font-size: 1.2rem;
 }
 
 /* Navbar */
@@ -44,10 +65,51 @@ span{
 
 .hero-principal h2{
   font-size: 1.5rem;
-  color: #615151;
+  /* color: #615151; */
+}
+
+/* Sbore-mi */
+.sobre-mi{
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor{
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Experiencia */
+.experiencia{
+  padding: 40px 40px 60px 40px;
 }
 
 
+
+.experiencia i{
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+
+.experiencia-titulo{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge{
+  margin: 5px;
+}
 /* Responsive */
 
 @media  screen and (max-width: 767px) {
