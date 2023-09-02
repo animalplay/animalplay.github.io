@@ -55,10 +55,15 @@ span{
 }
 
 /* Navbar */
+
 .navbar {
-  background-color: #f5f6f7;
+  background-color: #1b1b32;
 }
 
+.bi-code-square{
+  font-size: 32px;
+  padding-left: 20px;
+}
 .navbar-collapse{
   align-items: center;
   justify-content: space-between;
